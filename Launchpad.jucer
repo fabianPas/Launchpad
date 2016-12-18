@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="N3OHgs" name="Launchpad" projectType="consoleapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.Launchpad" includeBinaryInAppConfig="1"
+              jucerVersion="3.2.0">
+  <MAINGROUP id="n0qinR" name="Launchpad">
+    <GROUP id="{132B8282-555D-4332-919F-6637096E107C}" name="Source">
+      <FILE id="Dpdjti" name="Controller.cpp" compile="1" resource="0" file="Source/Controller.cpp"/>
+      <FILE id="LSAsN3" name="Controller.h" compile="1" resource="0" file="Source/Controller.h"/>
+      <FILE id="cN9w1S" name="MidiCallback.cpp" compile="1" resource="0"
+            file="Source/MidiCallback.cpp"/>
+      <FILE id="Dxy5vL" name="MidiCallback.h" compile="1" resource="0" file="Source/MidiCallback.h"/>
+      <FILE id="I20MMD" name="Launchpad.h" compile="1" resource="0" file="Source/Launchpad.h"/>
+      <FILE id="aIAB6r" name="Launchpad.cpp" compile="1" resource="0" file="Source/Launchpad.cpp"/>
+      <FILE id="CrxhI4" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2015 targetFolder="Builds/VisualStudio2015">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="Launchpad"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="Launchpad"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_video" path="../JUCE-WINDOWS/modules"/>
+        <MODULEPATH id="juce_opengl" path="../JUCE-WINDOWS/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE-WINDOWS/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE-WINDOWS/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE-WINDOWS/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE-WINDOWS/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE-WINDOWS/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../JUCE-WINDOWS/modules"/>
+        <MODULEPATH id="juce_core" path="../JUCE-WINDOWS/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../JUCE-WINDOWS/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE-WINDOWS/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../JUCE-WINDOWS/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE-WINDOWS/modules"/>
+      </MODULEPATHS>
+    </VS2015>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
